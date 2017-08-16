@@ -1,6 +1,7 @@
 # prom-query
 Prometheus Query API Wrapper
 
+[![Build Status](https://travis-ci.org/geek/prom-query.png)](https://travis-ci.org/geek/prom-query)
 
 ## Usage
 
