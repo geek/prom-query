@@ -1,0 +1,31 @@
+{
+  "name": "prom-query",
+  "version": "0.0.0",
+  "description": "Prometheus Query API Wrapper",
+  "main": "./lib",
+  "scripts": {
+    "lint": "belly-button",
+    "test": "npm run lint && lab -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geek/prom-query.git"
+  },
+  "keywords": [
+    "prometheus",
+    "api"
+  ],
+  "author": "wyatt",
+  "license": "MPL-2",
+  "bugs": {
+    "url": "https://github.com/geek/prom-query/issues"
+  },
+  "homepage": "https://github.com/geek/prom-query#readme",
+  "devDependencies": {
+    "belly-button": "^4.0.1",
+    "lab": "^14.2.0"
+  },
+  "dependencies": {
+    "wreck": "^12.2.3"
+  }
+}
